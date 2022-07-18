@@ -1,0 +1,2 @@
+1. added internal comments area and resized the pane for better visibility
+2. ability to copy just the case noted for public use and copy the internal comments
