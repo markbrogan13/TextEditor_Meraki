@@ -30,8 +30,10 @@ def main(theme):
         [sg.Text('Actions Taken:')],
         [sg.Multiline(no_scrollbar=False, size=(80,5), key='-ACTIONS-', expand_x=True, expand_y=True)],
         [sg.Text('Next Steps:')],
-        [sg.Multiline(no_scrollbar=False, size=(80,5), key='-NEXT-', expand_x=True, expand_y=True)],
-        [sg.Button(button_text='Save to Clipboard'), sg.Button(button_text='Clear'), sg.Button(button_text='Undo')]
+        [sg.Multiline(no_scrollbar=False, size=(80,1), key='-NEXT-', expand_x=True, expand_y=True)],
+        [sg.Text('INTERNAL COMMENTS:')],
+        [sg.Multiline(no_scrollbar=False, size=(80,3), key='-INTERNAL-', expand_x=True, expand_y=True)],
+        [sg.Button(button_text='Save to Clipboard'), sg.Button(button_text='Copy Internal Comments'), sg.Button(button_text='Clear'), sg.Button(button_text='Undo')]
     ]
 
     window = sg.Window('Case Editor', layout, resizable=True, size=(675, 800))
@@ -67,6 +69,11 @@ def main(theme):
 
             sg.clipboard_set(full_text)
         
+        if event == 'Copy Internal Comments':
+            internal_text = values['-INTERNAL-']
+
+            sg.clipboard_set(internal_text)
+        
         if event == 'Clear':
             undo_event = values
             window['-NAME-'].update('')
@@ -74,6 +81,7 @@ def main(theme):
             window['-PROB-'].update('')
             window['-ACTIONS-'].update('')
             window['-NEXT-'].update('')
+            window['-INTERNAL-'].update('')
 
         if event == 'Undo':
             window['-NAME-'].update(undo_event['-NAME-'])
@@ -81,6 +89,7 @@ def main(theme):
             window['-PROB-'].update(undo_event['-PROB-'])
             window['-ACTIONS-'].update(undo_event['-ACTIONS-'])
             window['-NEXT-'].update(undo_event['-NEXT-'])
+            window['-INTERNAL-'].update(undo_event['-INTERNAL-'])
 
     window.close()
 
@@ -90,10 +99,11 @@ if __name__ == "__main__":
 
 """
 Notes and features:
-- Would like to add spell check
-- Undo Button [DONE 6/20/2022]
-- smoother experience and fully app wrapped [EXE DONE 6/20/2022]
-- Change Theme feature [DONE 6/20/2022]
+- Would like to add spell check [N/A completion]
+- Adding pictures to the fields 
+- Adding in a specific area for internal comments [COMPLETED 7/18/2022]
+- adding an icon for the app
+- reset cursor if possible
 
 
 EXE instructions: pyinstaller Editor.py --onefile -w 
