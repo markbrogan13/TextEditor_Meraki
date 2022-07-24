@@ -1,0 +1,2 @@
+Added support for macOS .app
+Added Application icon for OS side, still working on the applet side

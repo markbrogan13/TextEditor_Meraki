@@ -100,12 +100,11 @@ if __name__ == "__main__":
 """
 Notes and features:
 - Would like to add spell check [N/A completion]
-- Adding pictures to the fields 
-- Adding in a specific area for internal comments [COMPLETED 7/18/2022]
-- adding an icon for the app
+- Adding pictures to the fields [Unknown if possible]
+- adding an icon for the app [OS Icon Completed 07/24/2022, TODO: App side application]
 - reset cursor if possible
 
-
-EXE instructions: pyinstaller Editor.py --onefile -w 
-DMG instructions:
+APP NAME: TBD
+EXE instructions: pyinstaller -i "assets/editor.ico" Editor.py --onefile -w 
+DMG instructions: py2applet --make-setup Editor.py --iconfile assets/editor.icns && python3 setup.py py2app -A
 """
