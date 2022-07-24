@@ -37,6 +37,7 @@ def main(theme):
     ]
 
     window = sg.Window('Case Editor', layout, resizable=True, size=(675, 800))
+    m1 = window['-NAME-']
     undo_event = null
 
     while True:
@@ -82,6 +83,7 @@ def main(theme):
             window['-ACTIONS-'].update('')
             window['-NEXT-'].update('')
             window['-INTERNAL-'].update('')
+            m1.set_focus()
 
         if event == 'Undo':
             window['-NAME-'].update(undo_event['-NAME-'])
@@ -102,7 +104,7 @@ Notes and features:
 - Would like to add spell check [N/A completion]
 - Adding pictures to the fields [Unknown if possible]
 - adding an icon for the app [OS Icon Completed 07/24/2022, TODO: App side application]
-- reset cursor if possible
+- reset cursor if possible [Completed 07/24/2022]
 
 APP NAME: TBD
 EXE instructions: pyinstaller -i "assets/editor.ico" Editor.py --onefile -w 

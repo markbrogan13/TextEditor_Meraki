@@ -1,0 +1,1 @@
+Added reset cursor focus to NAME when clearing text from fields
