@@ -86,6 +86,8 @@ def main(theme):
             m1.set_focus()
 
         if event == 'Undo':
+            if undo_event == null:
+                undo_event = values
             window['-NAME-'].update(undo_event['-NAME-'])
             window['-NUMBER-'].update(undo_event['-NUMBER-'])
             window['-PROB-'].update(undo_event['-PROB-'])

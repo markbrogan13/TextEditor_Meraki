@@ -41,11 +41,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='assets/editor.ico',
-)
-app = BUNDLE(
-    exe,
-    name='Editor.app',
-    icon='assets/editor.ico',
-    bundle_identifier=None,
+    icon='assets\\editor.ico',
 )
