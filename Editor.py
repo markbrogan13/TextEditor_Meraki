@@ -1,7 +1,6 @@
 from datetime import datetime
 import PySimpleGUI as sg
 from sqlalchemy import null
-import os
 
 theme_change = null
 

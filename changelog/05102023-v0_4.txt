@@ -1,0 +1,7 @@
+Added visibility for more clarifying buttons (red = bad, green = good)
+added error checks for clearing content, asking user input for confirm or cancel
+added file saving feature that will require a case number to be added for saving (no inuput validation :kekw:)
+    - Made sure that if there is no input or you cancel saving the file, there will be an auto-close popup
+popups now do their best to center on the current window position, rather than center on primary display's window
+
+TODO: adding better MacOS integration so there is a .dmg with all dependecies, rather than requiring users to have the dependecies

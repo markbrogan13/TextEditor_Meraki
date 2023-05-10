@@ -1,3 +1,0 @@
-1. Added Undo feature for accidental clear presses
-2. main() wrapping def for more contanerized approach
-3. Implemented theme change for more themes and customization 
