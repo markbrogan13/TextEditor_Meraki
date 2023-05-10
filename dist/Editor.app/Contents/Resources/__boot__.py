@@ -94,7 +94,7 @@ def _path_inject(paths):
     sys.path[:0] = paths
 
 
-_path_inject(['/Users/mbrogan/Desktop/VSCode/TextEditor/TextEditor_Meraki'])
+_path_inject(['/Users/mbrogan/Desktop/VSCode/TextEditor_Meraki'])
 
 
 import re
@@ -147,7 +147,7 @@ def _run():
     exec(compile(source, script, "exec"), globals(), globals())
 
 
-DEFAULT_SCRIPT='/Users/mbrogan/Desktop/VSCode/TextEditor/TextEditor_Meraki/Editor.py'
+DEFAULT_SCRIPT='/Users/mbrogan/Desktop/VSCode/TextEditor_Meraki/Editor.py'
 SCRIPT_MAP={}
 try:
     _run()

@@ -63,15 +63,15 @@
 	<array/>
 	<key>PyRuntimeLocations</key>
 	<array>
-		<string>@executable_path/../Frameworks/Python.framework/Versions/3.10/Python</string>
-		<string>/Library/Frameworks/Python.framework/Versions/3.10/Python</string>
+		<string>@executable_path/../Frameworks/Python.framework/Versions/3.11/Python</string>
+		<string>/Library/Frameworks/Python.framework/Versions/3.11/Python</string>
 	</array>
 	<key>PythonInfoDict</key>
 	<dict>
 		<key>PythonExecutable</key>
-		<string>/Library/Frameworks/Python.framework/Versions/3.10/bin/python3</string>
+		<string>/Library/Frameworks/Python.framework/Versions/3.11/bin/python3</string>
 		<key>PythonLongVersion</key>
-		<string>3.10.5 (v3.10.5:f377153967, Jun  6 2022, 12:36:10) [Clang 13.0.0 (clang-1300.0.29.30)]</string>
+		<string>3.11.3 (v3.11.3:f3909b8bc8, Apr  4 2023, 20:12:10) [Clang 13.0.0 (clang-1300.0.29.30)]</string>
 		<key>PythonShortVersion</key>
 		<string>3.1</string>
 		<key>py2app</key>
@@ -81,7 +81,7 @@
 			<key>template</key>
 			<string>app</string>
 			<key>version</key>
-			<string>0.28.2</string>
+			<string>0.28.5</string>
 		</dict>
 	</dict>
 </dict>

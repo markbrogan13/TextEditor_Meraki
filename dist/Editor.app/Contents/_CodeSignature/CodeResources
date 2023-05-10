@@ -6,15 +6,15 @@
 	<dict>
 		<key>Resources/__boot__.py</key>
 		<data>
-		zNSErEBBoe1GgszaSXwvQLoC84k=
+		x80NvMKc075BMugiKDAUEZRNK48=
 		</data>
 		<key>Resources/__error__.sh</key>
 		<data>
 		jiMXHe2/gGu9p3+O3RpqVGbONRE=
 		</data>
-		<key>Resources/__pycache__/site.cpython-310.pyc</key>
+		<key>Resources/__pycache__/site.cpython-311.pyc</key>
 		<data>
-		Ox4hFPYrm2QJCYJn9Dm6SQfPaHc=
+		/awsOcBV4vKwjY1i5zgNpeJLljc=
 		</data>
 		<key>Resources/site.py</key>
 		<data>
@@ -26,22 +26,22 @@
 		<key>MacOS/python</key>
 		<dict>
 			<key>symlink</key>
-			<string>/Library/Frameworks/Python.framework/Versions/3.10/bin/python3</string>
+			<string>/Library/Frameworks/Python.framework/Versions/3.11/bin/python3</string>
 		</dict>
 		<key>Resources/--iconfile</key>
 		<dict>
 			<key>symlink</key>
-			<string>/Users/mbrogan/Desktop/VSCode/TextEditor/TextEditor_Meraki/--iconfile</string>
+			<string>/Users/mbrogan/Desktop/VSCode/TextEditor_Meraki/--iconfile</string>
 		</dict>
 		<key>Resources/__boot__.py</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zNSErEBBoe1GgszaSXwvQLoC84k=
+			x80NvMKc075BMugiKDAUEZRNK48=
 			</data>
 			<key>hash2</key>
 			<data>
-			sfHOPrqz3ncqqHC+j3asYjPzbCSRHETMcT/B6w2FPPI=
+			jAM3X+Z7XuCO+xPegToHsBApWsnpqIcVBtJKXpgeGPI=
 			</data>
 		</dict>
 		<key>Resources/__error__.sh</key>
@@ -55,28 +55,28 @@
 			X92yvDN0TrSkH2FT7nqBEm6WgAZJ9CS2MXV1a7IpE4o=
 			</data>
 		</dict>
-		<key>Resources/__pycache__/site.cpython-310.pyc</key>
+		<key>Resources/__pycache__/site.cpython-311.pyc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ox4hFPYrm2QJCYJn9Dm6SQfPaHc=
+			/awsOcBV4vKwjY1i5zgNpeJLljc=
 			</data>
 			<key>hash2</key>
 			<data>
-			WD2z2F2e7yG8zwiwTDUPQ9bz9cwx+53KDNHcjhFA8KM=
+			JgcHy7Xt4gX3qRvEGvUSVWDNgCqLf0OlZsXi7FKnC0A=
 			</data>
 		</dict>
 		<key>Resources/editor.icns</key>
 		<dict>
 			<key>symlink</key>
-			<string>/Users/mbrogan/Desktop/VSCode/TextEditor/TextEditor_Meraki/assets/editor.icns</string>
+			<string>/Users/mbrogan/Desktop/VSCode/TextEditor_Meraki/assets/editor.icns</string>
 		</dict>
-		<key>Resources/lib/python3.10/config</key>
+		<key>Resources/lib/python3.11/config</key>
 		<dict>
 			<key>symlink</key>
-			<string>/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/config</string>
+			<string>/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/config</string>
 		</dict>
-		<key>Resources/lib/python3.10/site.pyc</key>
+		<key>Resources/lib/python3.11/site.pyc</key>
 		<dict>
 			<key>symlink</key>
 			<string>../../site.pyc</string>
