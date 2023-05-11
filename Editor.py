@@ -37,7 +37,7 @@ def main(theme):
         [sg.Button(button_text='Save to Clipboard'), sg.Button(button_text='Copy Internal Comments'), sg.Button(button_text='Clear', button_color='red'), sg.Button(button_text='Undo'), sg.Button(button_text='Save to File', button_color='green')],
     ]
 
-    default_font = ("Arial", 14)
+    default_font = ("Arial", 11) # needs to be mutable
     window = sg.Window('Case Editor', layout, resizable=True, size=(675, 800), font=default_font)
     m1 = window['-NAME-']
     undo_event = null
@@ -128,11 +128,11 @@ def main(theme):
                 sg.popup_auto_close('No case number input -- File Not Saved', title='You\'ve Hit my Trap Card', font=default_font, location=(popup_x + 50, popup_y))    
             else:
                 date_str_now = datetime.now()
-                date_str = str(date_str_now.month) + "-" + str(date_str_now.day) + "-" + str(date_str_now.year) + "_" + str(date_str_now.hour) + ":" + str(date_str_now.minute) + ":" + str(date_str_now.minute)
+                date_str = str(date_str_now.month) + "-" + str(date_str_now.day) + "-" + str(date_str_now.year) + "_" + str(date_str_now.hour) + "-" + str(date_str_now.minute) + "-" + str(date_str_now.minute)
                 filename = str(case_number) + "_" + date_str
                 print(filename)
 
-                with open(f'./SavedCases/{filename}.txt', "w") as f:
+                with open(f'.\SavedCases\{filename}.txt', "w") as f:
                     f.write(full_text)
                     f.close()
 
