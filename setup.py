@@ -9,7 +9,7 @@ from setuptools import setup
 
 APP = ['Editor.py']
 DATA_FILES = ['--iconfile']
-OPTIONS = {'iconfile': '/Users/mbrogan/Desktop/VSCode/TextEditor_Meraki/assets/editor.icns'}
+OPTIONS = {'iconfile': '/Users/mbrogan/Desktop/VSCode/TextEditor_Meraki/assets/editor.ico'}
 
 setup(
     app=APP,
